@@ -14,10 +14,10 @@ def file():
     global result
     global x
     try:
-        with open(f'C:/Users/wixax/Desktop/thehunter_KILLKI/grind.txt','a') as f:
+        with open(f'path','a') as f:
             f.write('\n'+rok+" "+miesiac+" "+dzien+" "+f' {result}' + '\n')
     except FileNotFoundError:
-        print("niedziala")
+        print("doesntwork")
     f.close()
 
 def on_key_event(e):
