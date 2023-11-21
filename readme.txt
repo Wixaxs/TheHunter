@@ -1,0 +1,5 @@
+In the 'path' field, you need to provide the file path for the txt file. PLEASE NOTE: The file must also exist at the specified location, for example, C:/users/name/thehuntercounter/grind.txt. Be careful with Windows backslashes; you need to replace them with forward slashes. Additionally, you must install Python, which can be downloaded from https://www.python.org/downloads/. After installing Python, run the following commands in the command prompt (cmd): 'pip install keyboard' and 'pip install datetime'.
+
+For those interested in creating an executable (exe) file, refer to the guide at https://datatofish.com/executable-pyinstaller/. In case of any issues, feel free to reach out to me on Reddit; I'm here to help.
+
+Use the '+' button to add to the count, and the '-' button to subtract 1 from the count. To end the application, you need to have it running and then press Ctrl+C.
